@@ -1,13 +1,9 @@
 package com.gilrs.calculator;
+import org.springframework.stereotype.Service;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
+@Service
 public class CalculatorApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(CalculatorApplication.class, args);
-	}
-
+     int sum(int a, int b) {
+          return a + b;
+     }
 }
